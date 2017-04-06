@@ -1,0 +1,489 @@
+<html>
+<head>
+<title>e-Bisa - Consulta de Movimientos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!--  language="Javascript">
+<!--
+function show_hide_column(col_no) {
+	var checkbox = document.getElementById("infComplementaria");
+    var stl;
+    if(checkbox.checked){
+    	stl = 'block';
+    }else{
+    	stl = 'none';
+    }
+
+    var tbl  = document.getElementById('Tabla1');
+    var rows = tbl.getElementsByTagName('tr');
+	
+    for(var row=0; row<rows.length;row++){
+		var cels = rows[row].getElementsByTagName('td');
+		cels[col_no].style.display=stl;
+	}
+}
+
+function fondo1(){
+	if(document.test.Flag1.value=='0'){
+		cc="<tr bgcolor='#D2DAF1'>";
+		document.test.Flag1.value='1';
+	}else{
+		cc="<tr bgcolor='white'>";
+		document.test.Flag1.value='0';
+	}
+	return(cc);
+}
+
+function fondoFin(){
+	fin = "</tr>";
+	return (fin);
+}
+
+function todo(){
+	document.test.C1.checked=false;
+	document.test.Flag2.value='1';
+}
+//-->
+-->
+<! href="style.css?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" rel="stylesheet" type="text/css">
+</head>
+<body onload='javascript:todo()';>
+<! name="test">
+<! type="hidden" name="Flag1" value="0">
+<! type="hidden" name="Flag2" value="1">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber3">
+	<tr>
+		<td width="60%">
+			<p align="left" class="t2"><b>Cliente Nro </b>0000352422 (ryokintero)
+		</p></td>
+		<td width="5%">
+			<p align="right" class="T8"><b><font color="#000000" size="2">&nbsp;</font></b>
+		</p></td>
+		<td width="35%" align="right">
+			<p align="left" class="T8"><b><font color="#2372D4" size="2" face="Verdana">Banco Bisa</font></b>
+		</p></td>
+	</tr>
+	<tr>
+		<td width="60%">
+			<p align="left" class="t2"><b>Nombre</b> : ROJAS QUINTEROS ROY ALEX
+		</p></td>
+		<td width="5%">&nbsp;</td>
+		<td width="35%" align="right">
+			<p align="left" class="T8"><font face="Verdana" color="#2372D4"><b>Al: 04-11-2016 16:32</b></font>
+		</p></td>
+	</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="100%">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" background="img/t.gif" style="border-collapse: collapse" bordercolor="#111111">
+			<tr>
+				<td width="8"><! src="img/clt.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+				<td width="100%" background="img/t.gif"><! src="img/t.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="1" hi="15"></td>
+				<td width="8"><! src="img/crt.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+			</tr>
+		</table>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111">
+			<tr>
+				<td width="15" hi="100%" background="img/l.gif"><! src="img/l.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="1"></td>
+				<td width="100%" hi="100%">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr align="left">
+						<td width="11"><! src="img/barTitleL.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="10" hi="21"></td>
+						<td width="100%" background="img/barTitleC.gif" class="T6">Movimientos de Cuenta</td>
+						<td width="10"><! src="img/barTitleR.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="10" hi="21"></td>
+					</tr>
+				</table>
+				<table width="100%" border="0" cellspacing="5" cellpadding="0">
+					<tr>
+						<td width="49%" hi="100%">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" background="img/t.gif" style="border-collapse: collapse"	bordercolor="#111111">
+							<tr>
+								<td width="15"><! src="img/clt.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+								<td width="100%" background="img/t.gif"><! src="img/t.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="1" hi="15"></td>
+								<td width="15"><! src="img/crt.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+							</tr>
+						</table>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+							<tr>
+								<td width="15" background="img/l.gif"><! src="img/l.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="1"></td>
+								<td width="100%">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111">
+									<tr hi="25%" width="25%">
+										<td class="T2"><! src="img/bullet00.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="13" hi="9">Número de Cuenta:</td>
+										<td class="T8">352422-401-1</td>
+										<td class="T2"><! src="img/bullet00.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="13" hi="9">Nombre de Cuenta:</td>
+										<td class="T8">ROJAS ROY</td>
+									</tr>
+									<tr hi="25%" width="25%">
+										<td class="T2"><! src="img/bullet00.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="13" hi="9">Producto:</td>
+										<td class="T8">Multi-BISA Ahorro</td>
+										<td class="T2"><! src="img/bullet00.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="13" hi="9">Moneda:</td>
+										<td class="T8">Bs</td>
+									</tr>
+									<tr hi="25%" width="25%">
+										<td class="T2"><! src="img/bullet00.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="13" hi="9">Estado de Cuenta:</td>
+										<td class="T8">Activa</td>
+										<td class="T2"><! src="img/bullet00.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="13" hi="9">Saldo Inicial:</td>
+										<td class="T8"> 1.066,22</td>
+									</tr>
+								</table>
+								</td>
+								<td width="15" background="img/r.gif"><! src="img/r.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="1"></td>
+							</tr>
+						</table>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" background="img/t.gif" style="border-collapse: collapse" bordercolor="#111111">
+							<tr>
+								<td width="15"><! src="img/clb.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+								<td width="100%" background="img/b.gif"><! src="img/b.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="1" hi="15"></td>
+								<td width="15"><! src="img/crb.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td>
+						<p align="right" class="t2"><! type="checkbox" name="C1" OnClick="javascript:show_hide_column(6);" id="infComplementaria">Ver Información Complementaria
+						<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="100%" id="Tabla1" hi="48">
+							<tr class="T4" hi="20" align="center">
+								<td width="8%"><font size="1">Fecha</td>
+								<td width="6%"><font size="1">Hora</td>
+								<td width="10%"><font size="1">Nro. Cheque</td>
+								<td width="25%"><font size="1">Descripción</td>
+								<td width="11%"><font size="1">Importe</td>
+								<td width="13%"><font size="1">Saldo</td>
+								<td width="31%"><font size="1">Información Complementaria</font></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=103EBA4CF7DB6689&Llaves=201607292129123440900001">29/07/16</a></td>
+							<td align="center" class="T8">13:41</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM Bisa</td>
+							<td align="right" class="T8">-10,00</td>
+							<td align="right" class="T8"> 1.056,22</td>
+							<td align="left" class="T8">AG. ARCE-La Paz            BO Tarjeta:4787861905026072    Importe:10.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=E0D4D8F661E0B9&Llaves=201607295171183014500002">29/07/16</a></td>
+							<td align="center" class="T8">16:27</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Débito Pago Tarjeta Crédito</td>
+							<td align="right" class="T8">-1.043,31</td>
+							<td align="right" class="T8"> 12,91</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=6010D113362AE01B&Llaves=201607316213000000100001">31/07/16</a></td>
+							<td align="center" class="T8">03:02</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Pago de Interes</td>
+							<td align="right" class="T8"> 0,26</td>
+							<td align="right" class="T8"> 13,17</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=45986C4BF8B6793C&Llaves=201607316213000000200002">31/07/16</a></td>
+							<td align="center" class="T8">03:02</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Impuesto Retenido</td>
+							<td align="right" class="T8">-0,03</td>
+							<td align="right" class="T8"> 13,14</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=3A664E66C0B56B88&Llaves=201608042130161484500001">04/08/16</a></td>
+							<td align="center" class="T8">14:29</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 920,00</td>
+							<td align="right" class="T8"> 933,14</td>
+							<td align="left" class="T8">AG. PRADO II-La Paz            BO Tarjeta:4787861905026072    Importe:920.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=25B177CD161DD2F4&Llaves=201608042130161484600002">04/08/16</a></td>
+							<td align="center" class="T8">14:30</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 80,00</td>
+							<td align="right" class="T8"> 1.013,14</td>
+							<td align="left" class="T8">AG. PRADO II-La Paz            BO Tarjeta:4787861905026072    Importe:80.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=6620572AFAEC14C8&Llaves=201608042179064848400003">04/08/16</a></td>
+							<td align="center" class="T8">14:53</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 350,00</td>
+							<td align="right" class="T8"> 1.363,14</td>
+							<td align="left" class="T8">AG. LOAYZA III-La Paz            BO Tarjeta:4787861905026072    Importe:350.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=788AF3CC460060EA&Llaves=201608095151189905900001">09/08/16</a></td>
+							<td align="center" class="T8">07:15</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Débito Pago Tarjeta Crédito</td>
+							<td align="right" class="T8">-571,21</td>
+							<td align="right" class="T8"> 791,93</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=2D37DE7631DA097&Llaves=201608114512033175700001">11/08/16</a></td>
+							<td align="center" class="T8">14:03</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM sin tarjeta</td>
+							<td align="right" class="T8">-120,00</td>
+							<td align="right" class="T8"> 671,93</td>
+							<td align="left" class="T8">Nota: 65643904 SAGARNAGA La Paz  ...</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=46899EF3F32C631F&Llaves=201608172990985477300001">17/08/16</a></td>
+							<td align="center" class="T8">11:23</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en POS ATC</td>
+							<td align="right" class="T8">-199,00</td>
+							<td align="right" class="T8"> 472,93</td>
+							<td align="left" class="T8">BTEL LA PAZ            LA PAZ        BOL Tarjeta:4787861905026072    Importe:199.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=4C2FB5FB6FD72E8&Llaves=201608195116185106600001">19/08/16</a></td>
+							<td align="center" class="T8">13:47</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Débito Pago Tarjeta Crédito</td>
+							<td align="right" class="T8">-400,23</td>
+							<td align="right" class="T8"> 72,70</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=77E6554ABE5A7DD3&Llaves=201608316244000000100001">31/08/16</a></td>
+							<td align="center" class="T8">03:15</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Pago de Interes</td>
+							<td align="right" class="T8"> 0,80</td>
+							<td align="right" class="T8"> 73,50</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=490ED14E7A9D0D04&Llaves=201608316244000000200002">31/08/16</a></td>
+							<td align="center" class="T8">03:15</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Impuesto Retenido</td>
+							<td align="right" class="T8">-0,10</td>
+							<td align="right" class="T8"> 73,40</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=5DC38F8C6D2EEEA1&Llaves=201609012167040031100001">01/09/16</a></td>
+							<td align="center" class="T8">09:22</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 780,00</td>
+							<td align="right" class="T8"> 853,40</td>
+							<td align="left" class="T8">AG. MULTICINE II-La Paz            BO Tarjeta:4787861905026072    Importe:780.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=2BD2F6F03C871544&Llaves=201609065111190115900001">06/09/16</a></td>
+							<td align="center" class="T8">08:14</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Débito Pago Tarjeta Crédito</td>
+							<td align="right" class="T8">-662,32</td>
+							<td align="right" class="T8"> 191,08</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=398837F89ED92F02&Llaves=201609062167040119900002">06/09/16</a></td>
+							<td align="center" class="T8">10:47</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 1.450,00</td>
+							<td align="right" class="T8"> 1.641,08</td>
+							<td align="left" class="T8">AG. MULTICINE II-La Paz            BO Tarjeta:4787861905026072    Importe:1,450.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=7234389C5FDE1FB7&Llaves=201609092990996452500001">09/09/16</a></td>
+							<td align="center" class="T8">10:19</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en POS ATC</td>
+							<td align="right" class="T8">-199,00</td>
+							<td align="right" class="T8"> 1.442,08</td>
+							<td align="left" class="T8">COMTECO LPZ            LA PAZ        BOL Tarjeta:4787861905026072    Importe:199.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=3025B52556BE91B7&Llaves=201609304512034835700001">30/09/16</a></td>
+							<td align="center" class="T8">09:38</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM sin tarjeta</td>
+							<td align="right" class="T8">-10,00</td>
+							<td align="right" class="T8"> 1.432,08</td>
+							<td align="left" class="T8">Nota: 65643904 AG. MULTICINE II L...</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=2B9AB94FFFF94D1&Llaves=201609305131193757000002">30/09/16</a></td>
+							<td align="center" class="T8">13:42</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Débito Pago Tarjeta Crédito</td>
+							<td align="right" class="T8">-1.127,73</td>
+							<td align="right" class="T8"> 304,35</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=3198F1C69D0D68BE&Llaves=201609306274000000300003">30/09/16</a></td>
+							<td align="center" class="T8">03:18</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Pago de Interes</td>
+							<td align="right" class="T8"> 2,21</td>
+							<td align="right" class="T8"> 306,56</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=1B9E839773DE3F99&Llaves=201609306274000000400004">30/09/16</a></td>
+							<td align="center" class="T8">03:18</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Impuesto Retenido</td>
+							<td align="right" class="T8">-0,29</td>
+							<td align="right" class="T8"> 306,27</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=3F8E112B1C8E3AD0&Llaves=201610042990008827500001">04/10/16</a></td>
+							<td align="center" class="T8">09:52</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en POS ATC</td>
+							<td align="right" class="T8">-199,00</td>
+							<td align="right" class="T8"> 107,27</td>
+							<td align="left" class="T8">COMTECO LPZ            LA PAZ        BOL Tarjeta:4787861905026072    Importe:199.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=7252E24A4C13C64B&Llaves=201610042113011984200002">04/10/16</a></td>
+							<td align="center" class="T8">14:18</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 350,00</td>
+							<td align="right" class="T8"> 457,27</td>
+							<td align="left" class="T8">AG.CA.POTOSI II-La Paz            BO Tarjeta:4787861905026072    Importe:350.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=8170185C620773C&Llaves=201610042113011986800003">04/10/16</a></td>
+							<td align="center" class="T8">15:37</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM Bisa</td>
+							<td align="right" class="T8">-20,00</td>
+							<td align="right" class="T8"> 437,27</td>
+							<td align="left" class="T8">AG.CA.POTOSI II-La Paz            BO Tarjeta:4787861905026072    Importe:20.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=14306C4A1A9F7C07&Llaves=201610052163045397300001">05/10/16</a></td>
+							<td align="center" class="T8">13:52</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM Bisa</td>
+							<td align="right" class="T8">-10,00</td>
+							<td align="right" class="T8"> 427,27</td>
+							<td align="left" class="T8">PLZ.BICENTENARIO-La Paz            BO Tarjeta:4787861905026072    Importe:10.00 - Boliviano</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=3A1B23F726000A1C&Llaves=201610074511035023200001">07/10/16</a></td>
+							<td align="center" class="T8">13:45</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM sin tarjeta</td>
+							<td align="right" class="T8">-50,00</td>
+							<td align="right" class="T8"> 377,27</td>
+							<td align="left" class="T8">Nota: 65643904 AG. ARCE La Paz   ...</td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=76C1AD1323BBA144&Llaves=201610074516034960100002">07/10/16</a></td>
+							<td align="center" class="T8">13:49</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Retiro en ATM sin tarjeta</td>
+							<td align="right" class="T8">-10,00</td>
+							<td align="right" class="T8"> 367,27</td>
+							<td align="left" class="T8">Nota: 65643904 AG. ARCE La Paz   ...</td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=1955A976D9C640E1&Llaves=201610316305000000100001">31/10/16</a></td>
+							<td align="center" class="T8">03:23</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Pago de Interes</td>
+							<td align="right" class="T8"> 0,63</td>
+							<td align="right" class="T8"> 367,90</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="#D2DAF1">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=88F5FCE528B1596&Llaves=201610316305000000200002">31/10/16</a></td>
+							<td align="center" class="T8">03:23</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Impuesto Retenido</td>
+							<td align="right" class="T8">-0,08</td>
+							<td align="right" class="T8"> 367,82</td>
+							<td align="left" class="T8"></td>
+							</tr>
+							
+							<tr bgcolor="white">
+							<td align="center" class="T8"><! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-003&RQE=640092FC85BC1ACE&Llaves=201611032126126191400001">03/11/16</a></td>
+							<td align="center" class="T8">16:07</td>
+							<td align="center" class="T8">0</td>
+							<td align="left" class="T8">Depósito Efectivo ATM Bisa</td>
+							<td align="right" class="T8"> 740,00</td>
+							<td align="right" class="T8"> 1.107,82</td>
+							<td align="left" class="T8">AV. CAMACHO-La Paz            BO Tarjeta:4787861905026072    Importe:740.00 - Boliviano</td>
+							</tr>
+							
+						</table>
+						</p></td>
+					</tr>
+				</table>
+				<!-- >javascript:show_hide_column(6);-->
+				<div align="center"><br>
+				<! xmlns:fo="http://www.w3.org/1999/XSL/Format" onclick="javascript:document.location='/Integracion/Process?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&amp;AID=MOVTOS-001&amp;MID=010302&amp;AsyncRq2=1'" value="Movimientos Anteriores" type="button" class="NextButton"/>&nbsp;</div>
+				</td>
+				<td width="15" hi="100%" background="img/r.gif"><! src="img/r.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="1"></td>
+			</tr>
+		</table>
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" background="img/t.gif" style="border-collapse: collapse" bordercolor="#111111" hi="1">
+			<tr>
+				<td width="15" hi="1"><! src="img/clb.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+				<td width="100%" background="img/b.gif" hi="1"><! src="img/b.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="1" hi="15"></td>
+				<td width="15" hi="1"><! src="img/crb.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="15" hi="15"></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<p align="center" class="T2"><font size="2"></font></p>
+<p align="center"><! href="/Integracion/Process?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MOVTOS-002&EXP=1&RQI=166DF39A6045F8DE"><! border="0" src="img/guardar.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="61" hi="14"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<! href="?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d&MID=010302&AID=MPI_CONSOL-010&RQE=2DE476CB73252625&xx=
+"><!	border="0" src="images/b_pi_infoperiodica.jpg?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="138" hi="17"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<! href="javascript:window.print();"><! border="0" src="img/imprimir.gif?anticsrf=rp:927cc9b770c148d154a0b4f250e6c7899fa2ee35249b421c149b94e8013b665d" width="63" hi="14"></a>
+</p>
+</form>
+</body>
+</html>
+
